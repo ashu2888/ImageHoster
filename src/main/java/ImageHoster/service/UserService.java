@@ -31,5 +31,27 @@ public class UserService {
             return null;
         }
     }
+    public boolean checkPassword(String password){
+        int n = password.length();
+        int alphabet = 0;
+        int number = 0;
+        int specialCharacter = 0;
+        boolean validPassword= false;
+
+        for (int i = 0; i < n; i++) {
+            char c = password.charAt(i);
+            if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
+                alphabet++;
+            } else if (c >= '0' && c <= '9') {
+                number++;
+            } else  {
+                specialCharacter++;
+            }
+        }
+        if (alphabet != 0 && number != 0 && specialCharacter != 0){
+            validPassword=true;
+        }
+        return  validPassword;
+    }
 
 }

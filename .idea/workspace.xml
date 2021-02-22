@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="PasswordStrength Feature Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +226,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6643678" />
   </component>
-  <component name="RunManager" selected="JUnit.ImageControllerTest.deleteImageWithNonOwnerOfTheImage">
+  <component name="RunManager" selected="JUnit.UserControllerTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -329,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImageControllerTest.deleteImageWithNonOwnerOfTheImage" />
+        <item itemvalue="JUnit.UserControllerTest" />
         <item itemvalue="JUnit.ImageControllerTest" />
+        <item itemvalue="JUnit.ImageControllerTest.deleteImageWithNonOwnerOfTheImage" />
         <item itemvalue="JUnit.HomeControllerTest" />
         <item itemvalue="JUnit.CommentControllerTest" />
-        <item itemvalue="JUnit.UserControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +351,7 @@
       <workItem from="1541482181542" duration="4602000" />
       <workItem from="1613895226998" duration="336000" />
       <workItem from="1613895603252" duration="3000" />
-      <workItem from="1613895625748" duration="13846000" />
+      <workItem from="1613895625748" duration="15210000" />
     </task>
     <task id="LOCAL-00001" summary="Image upload bugfix">
       <created>1613897674355</created>
@@ -408,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613975308021</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test Check">
+      <created>1613978209993</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613978209993</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -472,7 +466,8 @@
     <MESSAGE value="Image Owner bugfix" />
     <MESSAGE value="PasswordStrength Feature Added" />
     <MESSAGE value="Comment Feature Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment Feature Added" />
+    <MESSAGE value="Test Check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Check" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/model.java" />
